@@ -8,8 +8,8 @@ const toys = [
     {id: 40, name: 'El gato felix', sellCount: 35}
 ];
 
-for (let toysMoreFifteen of toys) {
-    if (toysMoreFifteen.sellCount > 15) {
+for (let toy of toys) {
+    if (toy.sellCount > 15) {
         popularToys.push(toysMoreFifteen);
     }
 }

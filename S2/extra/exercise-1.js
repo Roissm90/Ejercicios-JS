@@ -17,7 +17,7 @@ let moviesCategories = [];
 for (let movie of movies) {
     for (let category of movie.categories) {
         if (!moviesCategories.includes(category)) {
-            moviesCategories[moviesCategories.length] = category;
+            moviesCategories.push(category);
         }
     }
 }

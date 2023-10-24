@@ -7,7 +7,7 @@ const placesToTravel = [
     {id: 59, name: 'Madagascar'}
 ];
 
-for (i = 0; i < placesToTravel.length; i++) {
+for (let i = 0; i < placesToTravel.length; i++) {
     if (placesToTravel[i].id === 11 || placesToTravel[i].id === 40) {
         placesToTravel.splice(i, 1);
     }
