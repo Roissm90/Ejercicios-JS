@@ -27,8 +27,5 @@ for (let country of countries) {
 let myButton = document.querySelector('button');
 myButton.addEventListener('click', function() {
     let lastDiv = document.body.lastChild;
-    if (lastDiv && countries.length >= 3) { 
-        lastDiv.remove();
-    }
+    lastDiv.remove();
 });
-console.log(countries);
